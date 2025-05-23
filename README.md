@@ -1,0 +1,9 @@
+-- uv init
+-- uv run main.py
+-- rm main.py
+-- git init
+-- git add .
+-- git commit -m "feat: Arquitetura do Projeto"
+-- src/meu_modulo/\_\_init\_\_.py
+-- src/meu_modulo/main.py
+-- git commit -m "feat: src"
