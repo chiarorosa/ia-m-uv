@@ -7,3 +7,5 @@
 -- src/meu_modulo/\_\_init\_\_.py
 -- src/meu_modulo/main.py
 -- git commit -m "feat: src"
+-- tests/\_\_init\_\_.py
+-- tests/test_meu_modulo.py
