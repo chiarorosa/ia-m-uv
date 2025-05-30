@@ -20,6 +20,8 @@ class GeminiClient:
     - gemini-2.0-flash (Preview): Nova geração, com foco em velocidade e eficiência.
                                   Ideal para baixa latência e alto volume.
     - gemini-2.5-pro-preview-05-06 (Preview): A mais poderosa capacidade de raciocínio da nova geração. Melhor para codificação complexa e análise de grandes bases de dados.
+    - Outras variaçõe: gemini-2.0-flash-preview-image-generation, gemini-2.0-flash-lite, gemini-2.5-pro-preview-05-06, gemini-2.5-flash-preview-04-17, gemini-2.5-flash-preview-05-20
+    - Modelos Familia Gemma: gemma-3-27b-it, gemma-3-4b-it, gemma-3-12b-it
     """
 
     def __init__(
