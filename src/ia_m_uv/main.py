@@ -1,5 +1,6 @@
 import sys
 
+from .algoritmos.gemini_integration import GeminiClient
 from .utils import parse_args
 
 """
@@ -19,6 +20,12 @@ def main() -> None:
     try:
         problema = args.problema
         print(f"Problema: {problema}")
+
+        print("--- Teste de Geração de Texto Padrão ---")
+        gemini_client = GeminiClient(api_key="escreve-tua-chave-aqui", model_name="gemini-2.0-flash")
+        response_text = gemini_client.generate_response(problema)
+        print(f"Resposta: {response_text}\n")
+
         return 0
     except Exception as e:
         print(f"Erro: {e}")
