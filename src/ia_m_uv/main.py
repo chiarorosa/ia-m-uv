@@ -22,7 +22,7 @@ def main() -> None:
         print(f"Problema: {problema}")
 
         print("--- Teste de Geração de Texto Padrão ---")
-        gemini_client = GeminiClient(api_key="escreve-tua-chave-aqui", model_name="gemini-2.0-flash")
+        gemini_client = GeminiClient(api_key="chave-de-api", model_name="gemma-3-27b-it")
         response_text = gemini_client.generate_response(problema)
         print(f"Resposta: {response_text}\n")
 
